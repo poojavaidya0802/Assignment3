@@ -12,14 +12,16 @@ ul:first-of-type{
 ul ul li{
     padding-left:50px;
 }
-h2{
-     background-color: #DFE3E6;
-     border: 1px solid #929CA4;
-     border-radius: 5px;
-     padding-left:15px;
-}
 a, h2{
     color: #CC1C0D;
+}
+h2, .pricing div{
+    border: 1px solid #929CA4;
+    border-radius: 5px;
+}
+h2{
+     background-color: #DFE3E6;
+     padding-left:15px;
 }
 p img{
     float: left;
@@ -39,8 +41,6 @@ section p{
     float:left;
     margin-right:5px;
     width:230px;
-    border:1px solid #8c9094;
-    border-radius: 5px;
     text-align: center;
 }
 .pricing img{
